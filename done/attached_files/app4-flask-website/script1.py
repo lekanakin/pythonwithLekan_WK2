@@ -1,6 +1,9 @@
+
+#Import the libraries from the framwork
 from flask import Flask, render_template
 
-app=Flask(__name__)
+
+app = Flask(__name__)
 
 @app.route('/')
 def home():
